@@ -12,7 +12,7 @@
 
 .box-2 {
     flex: 0.9;
-    background-color: rgb(0, 70, 0);
+    background-color: rgb(27, 94, 32);
     border-radius: 5px;
     margin-right: 3px;
     display: flex;
@@ -38,6 +38,31 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.input-id {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.input-name {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 .registered-image {
     width: 170px;
@@ -71,26 +96,38 @@
 }
 
 .normal-text {
-    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     color: white;
+    text-align: center;
 }
 
 .button {
-    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    margin-top: 20px;
     background-color: white;
     color: black;
     border: none;
     height: 45px;
     width: 17vw;
-    font-size: 20px;
-    border-radius: 3px;
+    font-size: 18px;
+    border-radius: 30px;
     cursor: pointer;
     border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .button:hover {
-    background-color: grey;
-    color: black
+    background-color: rgb(0, 148, 0);
+    color: white;
+    border-color: white;
 }
 
 .box-1 {
@@ -111,7 +148,6 @@
     width: calc(100% - 20px);
     height: calc(100% - 80px);
     background-color: rgb(121, 121, 121);
-    /* margin-bottom: 5px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     position: absolute;
@@ -123,7 +159,7 @@
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background-color: green;
+    background-color: rgb(27, 94, 32);
     color: white;
     border: none;
     height: 60px;
@@ -136,5 +172,5 @@
 }
 
 .start-btn:hover {
-    background-color: darkgreen;
+    background-color: rgb(0, 148, 0);
 }
