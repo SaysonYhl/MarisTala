@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
-.container {
+.box-1 {
+    flex: 4.1;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 3px;
+    position: relative;
     display: flex;
-    height: 99vh;
-    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
 }
 
 .box-2 {
@@ -23,14 +31,6 @@
     height: 100%;
 }
 
-.top-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 .bottom-section {
     width: 100%;
     display: flex;
@@ -39,73 +39,8 @@
     justify-content: flex-end;
 }
 
-.input-id {
-    width: 17vw;
-    height: 30px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border-radius: 7px;
-    border: 1px solid black;
-    text-align: center;
-    font-size: 14px;
-}
-
-.input-name {
-    width: 17vw;
-    height: 30px;
-    background-color: white;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    border-radius: 7px;
-    border: 1px solid black;
-    text-align: center;
-    font-size: 14px;
-}
-
-
-.registered-image {
-    width: 170px;
-    height: 170px;
-    background-color: white;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    border-radius: 3px;
-    border: 1px solid black;
-}
-
-.id-number {
-    width: 17vw;
-    height: 30px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border-radius: 7px;
-    border: 1px solid black;
-    
-}
-
-.student-name {
-    width: 17vw;
-    height: 30px;
-    background-color: white;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    border-radius: 7px;
-    border: 1px solid black;
-}
-
-.normal-text {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-}
-
 .button {
     font-family: Arial, sans-serif;
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
     margin-top: 20px;
     background-color: white;
     color: black;
@@ -123,25 +58,10 @@
     align-items: center;
 }
 
-
 .button:hover {
     background-color: rgb(0, 148, 0);
     color: white;
     border-color: white;
-}
-
-.box-1 {
-    flex: 4.1;
-    background-color: rgb(180, 180, 180);
-    border-radius: 5px;
-    margin-right: 5px;
-    margin-left: 3px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 10px;
 }
 
 .camera-feed {
@@ -153,6 +73,83 @@
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.container {
+    display: flex;
+    height: 99vh;
+    width: 100vw;
+}
+
+.input-id {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.input-name {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.id-number {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+}
+
+.normal-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.registered-image {
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.student-name {
+    width: 17vw;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.student-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
 
 .start-btn {
@@ -174,3 +171,24 @@
 .start-btn:hover {
     background-color: rgb(0, 148, 0);
 }
+
+.top-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
