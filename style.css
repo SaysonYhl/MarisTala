@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    border: none;   
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    z-index: 10;
+}
+
+.back-btn:hover {
+    background-color: rgb(101, 101, 101);
+    color: white;
+}
+
 .box-1 {
     flex: 4.1;
     background-color: rgb(180, 180, 180);
@@ -73,6 +92,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
+    overflow: hidden;
 }
 
 .container {
